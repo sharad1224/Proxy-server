@@ -46,7 +46,10 @@ sudo systemctl enable nginx
 ```
 Check browser:
 ```bash
-curl localhost             #http://server-ip
+http://server-ip
+```
+```bash
+curl localhost
 ```
 
 ### Step 3 — Create Backend Test Server
@@ -200,6 +203,7 @@ Open Browser:
  
 http://server-ip/app1
 http://server-ip/app2
+
 
 
 
