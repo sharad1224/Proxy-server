@@ -56,7 +56,7 @@ curl localhost
 
 Let's create two backend servers using nginx web server (for testing).
 
-Backend Website 1:
+#### Backend Website 1:
 ```bash
 mkdir backend1
 cd backend1
@@ -79,7 +79,7 @@ vim index.html
 </html>
 ```
 
-Backend Website 2:
+#### Backend Website 2:
 ```bash
 mkdir backend2
 cd backend2
@@ -203,6 +203,7 @@ Open Browser:
  
 http://server-ip/app1
 http://server-ip/app2
+
 
 
 
