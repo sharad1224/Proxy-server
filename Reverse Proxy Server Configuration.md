@@ -160,8 +160,8 @@ http://server-ip:3000
 http://server-ip:5000
 
 ```bash
-curl http://server-ip:3000
-curl http://server-ip:5000
+curl localhost:3000
+curl localhost:5000
 ```
 
 ### Step 7 — Now Configure Reverse Proxy
@@ -222,6 +222,7 @@ final test
 ```bash
 curl http://localhost/app1/
 curl http://localhost/app2/
+
 
 
 
