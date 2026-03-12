@@ -1,6 +1,7 @@
 ## Reverse Proxy Server
 
 Architecture (Simple Diagram)
+```bash
 
                 Internet User
                       │
@@ -18,6 +19,8 @@ Architecture (Simple Diagram)
  │ 192.168.1.10 │              │ 192.168.1.11 │
  │ Port 3000    │              │ Port 5000    │
  └──────────────┘              └──────────────┘
+
+```
 
 ### Step 1 — Install Ubuntu Server
 
@@ -215,6 +218,7 @@ final test
 ```bash
 curl http://localhost/app1/
 curl http://localhost/app2/
+
 
 
 
