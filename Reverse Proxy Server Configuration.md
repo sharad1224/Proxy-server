@@ -155,9 +155,7 @@ sudo rm /etc/nginx/sites-enabled/default
 sudo nginx -t
 sudo systemctl reload nginx
 ```
-
-Step 7 — Test Backend Servers
-
+#### Test Backend Servers
 Open Browser:
 http://server-ip:3000
 http://server-ip:5000
@@ -203,6 +201,7 @@ Open Browser:
  
 http://server-ip/app1
 http://server-ip/app2
+
 
 
 
