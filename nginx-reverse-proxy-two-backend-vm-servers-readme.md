@@ -32,35 +32,36 @@ The proxy then forwards the request to the appropriate backend server.
                 Nginx : 80        Nginx : 80
 
 ### Routing Rules
-
+```bash
   Request URL   Destination
   ------------- ---------------------
   `/app1`       VM1 Web Application
   `/app2`       VM2 Web Application
-
+```
 Example:
-
+```bash
     http://proxy-ip/app1  → VM1
     http://proxy-ip/app2  → VM2
-
+```
 ------------------------------------------------------------------------
 
 # Environment Setup
 #### Network Mode = Bridge
+```bash
   Machine                Role
   ---------------------- --------------------------
   Local Ubuntu Machine   Reverse Proxy Server
   Ubuntu VM1             Web Application Server 1
   Ubuntu VM2             Web Application Server 2
-
+```
 Example IP configuration:
-
+```bash
   Server          Example IP
   --------------- --------------
   Reverse Proxy   192.168.1.10
   VM1             192.168.1.11
   VM2             192.168.1.12
-
+```
 Check IP using:
 
 ``` bash
