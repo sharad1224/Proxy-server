@@ -112,7 +112,7 @@ sudo chmod 755 /home/kiosk
 
 ### Step 4 — Backend Servers Run
 
-Configure Backend1:
+#### Configure Backend1:
 ```bash
 vim /etc/nginx/sites-available/backend1
 ```
@@ -124,7 +124,7 @@ server {
     index index.html;
 }
 ```
-Configure Backend2:
+#### Configure Backend2:
 ```bash
 vim /etc/nginx/sites-available/backend2
 ```
@@ -203,6 +203,7 @@ Open Browser:
  
 http://server-ip/app1
 http://server-ip/app2
+
 
 
 
