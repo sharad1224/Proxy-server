@@ -140,6 +140,10 @@ server {
 sudo ln -s /etc/nginx/sites-available/backend1 /etc/nginx/sites-enabled/
 sudo ln -s /etc/nginx/sites-available/backend2 /etc/nginx/sites-enabled/
 ```
+Default site disable:
+```bash
+sudo rm /etc/nginx/sites-enabled/default
+```
 
 
 ### Step 6 — Nginx reload
@@ -218,6 +222,7 @@ final test
 ```bash
 curl http://localhost/app1/
 curl http://localhost/app2/
+
 
 
 
