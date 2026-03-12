@@ -184,10 +184,14 @@ server {
 
 }
 ```
+Reverse proxy enable:
+```bash
+ln -s /etc/nginx/sites-available/reverse-proxy /etc/nginx/sites-enabled/
+```
 Reload nginx:
 ```bash
-sudo nginx -t
-sudo systemctl reload nginx
+nginx -t
+systemctl reload nginx
 ```
 
 ### Step 8 — Final Test
@@ -196,33 +200,6 @@ Open Browser:
  
 http://server-ip/app1
 http://server-ip/app2
-
-```bash
-curl http://server-ip/app1
-curl http://server-ip/app2
-```
-
-Reverse proxy enable:
-```bash
-sudo ln -s /etc/nginx/sites-available/reverse-proxy /etc/nginx/sites-enabled/
-```
-
-Default site disable:
-```bash
-sudo rm /etc/nginx/sites-enabled/default
-```
-
-```bash
-sudo nginx -t
-sudo systemctl restart nginx
-```
-
-
-final test
-```bash
-curl http://localhost/app1/
-curl http://localhost/app2/
-
 
 
 
