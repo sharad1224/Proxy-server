@@ -46,7 +46,7 @@ Example:
 ------------------------------------------------------------------------
 
 # Environment Setup
-
+#### Network Mode = Bridge
   Machine                Role
   ---------------------- --------------------------
   Local Ubuntu Machine   Reverse Proxy Server
