@@ -103,7 +103,7 @@ vim index.html
 ```
 Check file permission 
 ```bash
-ls -l /home/sharad
+ls -l /home/kiosk
 sudo chmod -R 755 /home/kiosk/backend1
 sudo chmod -R 755 /home/kiosk/backend2
 sudo chmod 755 /home/kiosk
@@ -203,6 +203,7 @@ Open Browser:
  
 http://server-ip/app1
 http://server-ip/app2
+
 
 
 
