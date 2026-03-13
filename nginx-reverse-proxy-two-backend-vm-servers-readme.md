@@ -86,7 +86,7 @@ Enable and start service:
 
 Edit index file:
 
-    sudo nano /var/www/html/index.html
+    sudo vim /var/www/html/index.html
 
 Example content:
 
@@ -153,7 +153,7 @@ On your **Local Ubuntu machine**:
 
 Create configuration file:
 
-    sudo nano /etc/nginx/sites-available/reverse-proxy
+    sudo vim /etc/nginx/sites-available/reverse-proxy
 
 Add configuration:
 
